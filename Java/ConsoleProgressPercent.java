@@ -1,12 +1,10 @@
 public class ConsoleProgressPercent {
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
 
-        System.out.println("Ready? ... Go");
+        System.out.println("Ready? ... Go\n");
 
-        System.out.println();
-
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 10_000_000; i++) {
             System.out.print("Progress ... " + i + "%\r");
         }
     }
